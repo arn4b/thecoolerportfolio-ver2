@@ -1,0 +1,31 @@
+.navbar {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* background-color: red; */
+    font-family: 'Space Mono', monospace;
+}
+
+.navbar-text {
+    color: #fffffe;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin: 0 2rem;
+}
+
+.navbar-items {
+    display: flex;
+}
+
+.navbar-items-text {
+    display: flex;
+    color: #fffffe;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}

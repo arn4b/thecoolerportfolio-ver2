@@ -1,0 +1,22 @@
+.landing {
+    background: url('../../public/images/image-from-rawpixel-id-2282627-original.png');
+    background-size: 100% 100%;
+    display: flex;
+}
+
+
+.landing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.landing-h1 {
+    color: #fffffe;
+    font-size: 7rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    display: flex;
+    line-height: 8rem;
+}
