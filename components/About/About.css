@@ -1,0 +1,59 @@
+.about {
+    color: #fffffe;
+    padding: 1rem 0;
+    background: url("../../public/images/163231269225893591.png");
+    background-size: 100% 100%;
+}
+
+.about-header {
+    font-size: 4rem;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    color: #41cdff;
+}
+
+.about-main-text {
+    font-size: 1.5rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+.about-btn {
+    color: #41cdff !important;
+    font-size: 1.75rem !important;
+    font-family: 'Space Mono', monospace !important;
+    border: 3px solid #41cdff !important;
+    margin: 2rem 0 !important;
+    border-radius: 0.5rem !important;
+    text-transform: none !important;
+}
+
+.about-btn:hover {
+    border: 3px solid #fffffe !important;
+    box-shadow: #fffffe 4px 4px;
+    color: #fffffe !important;
+}
+
+.about-img {
+    border-radius: 1rem !important;
+}
+
+.App-logo {
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
