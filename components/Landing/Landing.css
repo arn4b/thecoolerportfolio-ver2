@@ -20,3 +20,11 @@
     display: flex;
     line-height: 8rem;
 }
+
+@media only screen and (max-width: 786px)
+{
+    .landing-h1 {
+        font-size: 4rem;
+        line-height: unset;
+    }
+}

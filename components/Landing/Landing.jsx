@@ -1,5 +1,6 @@
 import { Container, Grid } from '@mui/material'
 import React from 'react'
+import { motion } from "framer-motion"
 
 export default function Landing() {
     return (

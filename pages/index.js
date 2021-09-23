@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Navbar from '../components/Navbar/Navbar'
 import Landing from '../components/Landing/Landing'
 import About from '../components/About/About'
+import Tech from '../components/Tech/Tech'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar />
       <Landing />
       <About />
+      <Tech />
     </div>
   )
 }
