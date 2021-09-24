@@ -8,8 +8,8 @@ export default function About() {
     return (
         <div className="about">
             <Container>
-                <h1 data-aos="fade-down" data-aos-duration="3000" className="about-header">About</h1>
-                        <p data-aos="fade-down" data-aos-duration="3000" className="about-main-text">I&apos;m a Pre-Final Year Undergraduate at Kalinga Institute of Industrial Technology, Bhubaneshwar, majoring in Computer Science and System Engineering.
+                <h1 className="about-header">About</h1>
+                        <p className="about-main-text">I&apos;m a Pre-Final Year Undergraduate at Kalinga Institute of Industrial Technology, Bhubaneshwar, majoring in Computer Science and System Engineering.
 
                             <br /><br />
 

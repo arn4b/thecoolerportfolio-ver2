@@ -2,12 +2,12 @@
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-text.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
-@import url('https:/db.onlinewebfonts.com/c/1094504ae47cb9cfa800bc04261c211a?family=Geomanist');
+@import url('https://db.onlinewebfonts.com/c/1094504ae47cb9cfa800bc04261c211a?family=Geomanist');
 @import url('https://db.onlinewebfonts.com/c/067cc4a05526cc8001ffbe6a576eace4?family=Cosi+Azure+Black+Stencil');
 @import url('https://db.onlinewebfonts.com/c/61486c71563f7840de6d1c7e0a2ed07e?family=Cosi+Azure+Bold');
 
 .body {
-    background-color: #0f0e17;
+    background-color: #000000;
 }
 
 ::selection {
