@@ -14,6 +14,7 @@
     border: 2px solid #41cdff;
     border-radius: 2rem;
     backdrop-filter: blur(10px);
+    position: relative;
     -webkit-backdrop-filter: blur(10px);
     -ms-backdrop-filter: blur(10px);
     -moz-backdrop-filter: blur(10px);
@@ -23,6 +24,26 @@
     color: white;
     font-size: 1.5rem;
     text-align: center;
+}
+
+.techdmn-name {
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-weight: 600;
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.tech-box:hover .techdmn-name {
+    display: block;
+    cursor: pointer;
+}
+
+.tech-box:hover {
 }
 
 .tech-img {

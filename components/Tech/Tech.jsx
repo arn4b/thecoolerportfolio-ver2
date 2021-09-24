@@ -18,6 +18,7 @@ export default function Tech() {
                                 <div className="tech-box">
                                     <Image className="tech-img" src={logo}
                                      />
+                                     <h1 className="techdmn-name">React</h1>
                                 </div>
                             </Grid>
                             <Grid item xs={3}>
