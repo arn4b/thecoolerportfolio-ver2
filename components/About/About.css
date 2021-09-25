@@ -1,7 +1,7 @@
 .about {
     color: #fffffe;
     padding: 1rem 0;
-    background: url("../../public/images/163231269225893591.png");
+    /* background: url("../../public/images/163231269225893591.png"); */
     background-size: 100% 100%;
 }
 
@@ -9,7 +9,7 @@
     font-size: 4rem;
     font-family: 'Cosi Azure Bold', serif;
     font-weight: 700;
-    color: #41cdff;
+    color: #7b0096;
 }
 
 .about-main-text {
@@ -19,10 +19,10 @@
 }
 
 .about-btn {
-    color: #41cdff !important;
+    color: #7b0096 !important;
     font-size: 1.75rem !important;
     font-family: 'Space Mono', monospace !important;
-    border: 3px solid #41cdff !important;
+    border: 3px solid #7b0096 !important;
     margin: 2rem 0 !important;
     border-radius: 0.5rem !important;
     text-transform: none !important;

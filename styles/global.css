@@ -6,6 +6,8 @@
 @import url('https://db.onlinewebfonts.com/c/067cc4a05526cc8001ffbe6a576eace4?family=Cosi+Azure+Black+Stencil');
 @import url('https://db.onlinewebfonts.com/c/61486c71563f7840de6d1c7e0a2ed07e?family=Cosi+Azure+Bold');
 
+@font-face {font-family: "Cosi Azure Bold"; src: url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.eot"); src: url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.woff") format("woff"), url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.svg#Cosi Azure Bold") format("svg"); } 
+
 .body {
     background-color: #000000;
 }

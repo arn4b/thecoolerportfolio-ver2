@@ -30,6 +30,8 @@ function MyApp({ Component, pageProps }) {
     <title>Arnab Chatterjee</title>
     <link rel="shortcut icon" href="https://maukaedu.s3.ap-south-1.amazonaws.com/favicon.ico" />
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+    <link href="//db.onlinewebfonts.com/c/61486c71563f7840de6d1c7e0a2ed07e?family=Cosi+Azure+Bold" rel="stylesheet" type="text/css"/>
   </Head>
 
   <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>
