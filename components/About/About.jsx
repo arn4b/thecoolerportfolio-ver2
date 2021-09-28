@@ -8,12 +8,8 @@ export default function About() {
     return (
         <div className="about">
             <Container>
-                <h1 className="about-header">About</h1>
-                        <p className="about-main-text">I&apos;m a Pre-Final Year Undergraduate at Kalinga Institute of Industrial Technology, Bhubaneshwar, majoring in Computer Science and System Engineering.
-
-                            <br /><br />
-
-                            I have over 1 and a half years of experience in developing mobile-first fully responsive frontend sites using ReactJS, and multiple frontend frameworks like Bootstrap, MaterialUI, etc. as well as developing mobile apps for both Android and iOS using React Native. I have worked on multiple projects using React, NodeJS, Firebase and multiple other JS frameworks. </p>
+                <h1 className="about-header">Sorry, Who?</h1>
+                        <p className="about-main-text"> </p>
 
                         <Button className="about-btn" variant="outlined">Get My Resume</Button>
             </Container>

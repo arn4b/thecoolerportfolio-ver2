@@ -36,6 +36,10 @@ function MyApp({ Component, pageProps }) {
 
   <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>
 
+  <Script src="https://unpkg.com/scrollreveal"></Script>
+
+  <Script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></Script>
+
   </>
 
 

@@ -37,14 +37,3 @@
     transform: translate(-50%, -50%);
     display: none;
 }
-
-.tech-box:hover .techdmn-name {
-    display: block;
-    cursor: pointer;
-}
-
-.tech-box:hover {
-}
-
-.tech-img {
-}

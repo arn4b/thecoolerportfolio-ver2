@@ -29,3 +29,15 @@
     align-items: center;
     margin: 0 1rem;
 }
+
+.navbar-items-text:hover {
+    color: #7b0096;
+    transition: 0.5s ease;
+}
+
+@media only screen and (max-width: 786px)
+{
+    .navbar-items {
+        display: none;
+    }
+}

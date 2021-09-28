@@ -19,7 +19,7 @@ export default function Home() {
             outerSize={40}
             color='255, 255, 255'
             outerAlpha={0.2}
-            innerScale={1.5}
+            innerScale={0.6}
             outerScale={2}
             trailingSpeed={7}/>
         <Head>
