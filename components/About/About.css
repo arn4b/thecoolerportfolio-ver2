@@ -13,15 +13,15 @@
 }
 
 .about-main-text {
-    font-size: 2rem;
+    font-size: 6rem;
     font-family: 'Plus Jakarta Sans', sans-serif;
-
+    font-weight: 700;
 }
 
 .about-btn {
     color: #7b0096 !important;
     font-size: 1.75rem !important;
-    font-family: 'Space Mono', monospace !important;
+    font-family: 'Circular Std Bold', sans-serif !important;
     border: 3px solid #7b0096 !important;
     margin: 2rem 0 !important;
     border-radius: 0.5rem !important;

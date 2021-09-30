@@ -6,6 +6,8 @@ import Navbar from '../components/Navbar/Navbar'
 import Landing from '../components/Landing/Landing'
 import About from '../components/About/About'
 import Tech from '../components/Tech/Tech'
+import Experience from '../components/Experience/Experience'
+import Projects from '../components/Projects/Projects'
 
 const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
   ssr: false
@@ -29,6 +31,7 @@ export default function Home() {
       <Navbar />
       <Landing />
       <About />
+      <Experience />
       <Tech />
     </div>
   )
