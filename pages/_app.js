@@ -7,6 +7,7 @@ import '../components/About/About.css'
 import '../components/Tech/Tech.css'
 import '../components/Experience/Experience.css'
 import '../components/Projects/Projects.css'
+import '../components/Footer/Footer.css'
 
 import React, { useEffect } from 'react'
 import AOS from "aos";
@@ -28,6 +29,8 @@ function MyApp({ Component, pageProps }) {
 
   <Head>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://unpkg.com/react-custom-scroll@4.3.0/dist/customScroll.css" rel="stylesheet" />
+
 
     <title>Arnab Chatterjee</title>
     <link rel="shortcut icon" href="https://maukaedu.s3.ap-south-1.amazonaws.com/favicon.ico" />
@@ -43,6 +46,8 @@ function MyApp({ Component, pageProps }) {
   <Script src="https://unpkg.com/scrollreveal"></Script>
 
   <Script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></Script>
+
+  <Script src="https://unpkg.com/react-custom-scroll@4.3.0/dist/reactCustomScroll.js"></Script>
 
   </>
 

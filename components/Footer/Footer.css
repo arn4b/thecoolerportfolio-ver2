@@ -1,0 +1,24 @@
+.footer-header {
+    font-size: 4rem;
+    font-family: 'Cosi Azure Bold', serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.social-links {
+    font-size: 2.5rem;
+    font-family: 'Circular Std Bold', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 1rem;
+}
+
+.social-links:hover {
+    color: #7b0096;
+    transition: 0.5s ease;
+    
+}

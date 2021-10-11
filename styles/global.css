@@ -12,7 +12,22 @@
 
 .body {
     background-color: #000000;
+    /* overflow: hidden; */
 }
+
+.mandatory-scroll-snapping {
+    scroll-snap-type: x mandatory;
+  }
+
+.rcs-custom-scrollbar {
+      width: 45px;
+  }
+.rcs-inner-handle {
+    background-color: inherit;
+    background-image: url("http://rommguy.github.io/react-custom-scroll/example/giraffe-icon.png");
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+  }
 
 ::selection {
     color: black;

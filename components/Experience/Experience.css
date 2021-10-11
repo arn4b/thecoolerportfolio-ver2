@@ -1,6 +1,17 @@
+.experience {
+    height: 100vh;
+}
+
 .exp-header {
     font-size: 4rem;
     font-family: 'Cosi Azure Bold', serif;
     font-weight: 700;
     color: #7b0096;
+}
+
+.exp-main-text {
+    font-size: 4.5rem;
+    font-family: 'Circular Std Bold', sans-serif;
+    font-weight: 500;
+    color: white;
 }
