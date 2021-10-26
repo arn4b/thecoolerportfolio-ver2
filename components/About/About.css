@@ -4,35 +4,43 @@
     /* background: url("../../public/images/163231269225893591.png"); */
     background-size: 100% 100%;
     height: 100vh;
+    position: relative;
+    z-index: 0;
+    display: flex;
 }
 
 .about-header {
-    font-size: 4rem;
+    font-size: 13rem;
     font-family: 'Cosi Azure Bold', serif;
     font-weight: 700;
-    color: #7b0096;
+    color: rgba(123, 0, 150, 0.5);
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .about-main-text {
     font-size: 6rem;
     font-family: 'Circular Std Bold', sans-serif;
     font-weight: 500;
+
+}
+
+.about-content {
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center !important;
 }
 
 .about-btn {
-    color: #7b0096 !important;
-    font-size: 1.75rem !important;
     font-family: 'Circular Std Bold', sans-serif !important;
-    border: 3px solid #7b0096 !important;
-    margin: 2rem 0 !important;
-    border-radius: 0.5rem !important;
-    text-transform: none !important;
-}
-
-.about-btn:hover {
-    border: 3px solid #fffffe !important;
-    box-shadow: #fffffe 4px 4px;
-    color: #fffffe !important;
 }
 
 .about-img {

@@ -1,12 +1,26 @@
 .experience {
     height: 100vh;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    z-index: 0;
 }
 
 .exp-header {
-    font-size: 4rem;
+    font-size: 13rem;
     font-family: 'Cosi Azure Bold', serif;
     font-weight: 700;
-    color: #7b0096;
+    color: rgba(123, 0, 150, 0.5);
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .exp-main-text {
@@ -14,4 +28,8 @@
     font-family: 'Circular Std Bold', sans-serif;
     font-weight: 500;
     color: white;
+    z-index: 111 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
