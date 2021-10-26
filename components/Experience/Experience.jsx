@@ -7,7 +7,7 @@ export default function Experience() {
             <Container>
                 <h1 className="exp-header">Experience</h1>
 
-                <p className="exp-main-text">Web Dev Lead @ MSC KIIT <br/> Frontend Intern @ Mauka <br/> Developer Champ @ SAWO Labs <br/> Web Team Core @ Hackclub </p>
+                <p className="exp-main-text">Web Dev Lead @ MSC KIIT <br/> Frontend Intern @ Mauka <br/> Web Team Core @ Hackclub <br/> Frontend Dev @ Mozilla BBSR</p>
 
             </Container>
         </div>

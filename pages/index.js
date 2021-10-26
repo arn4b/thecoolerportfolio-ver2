@@ -27,12 +27,9 @@ export default function Home() {
               innerScale={0.6}
               outerScale={2}
               trailingSpeed={7}/>
-
-              
           <Head>
           <title>Arnab Chatterjee</title>
           </Head>
-      <CustomScroll>  
 
         <Navbar />
         <Landing />
@@ -40,7 +37,6 @@ export default function Home() {
         <Experience />
         <Tech />
         <Footer />
-      </CustomScroll>
     </div>
   )
 }
