@@ -27,16 +27,19 @@
 }
 
 .about-main-text {
-    font-size: 6rem;
+    font-size: 4rem;
     font-family: 'Circular Std Bold', sans-serif;
     font-weight: 500;
-
 }
 
 .about-content {
-        display: flex !important;
-        flex-direction: column;
-        justify-content: center !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+}
+
+.abt-cont {
+    display: flex !important;
 }
 
 .about-btn {
@@ -44,7 +47,7 @@
 }
 
 .about-img {
-    border-radius: 1rem !important;
+    border-radius: 3rem !important;
 }
 
 .App-logo {

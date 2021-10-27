@@ -23,6 +23,10 @@
     user-select: none;
 }
 
+.exp-cont {
+    display: flex !important;
+}
+
 .exp-main-text {
     font-size: 4.5rem;
     font-family: 'Circular Std Bold', sans-serif;

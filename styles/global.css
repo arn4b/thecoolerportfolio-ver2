@@ -12,6 +12,8 @@
 
 .body {
     background-color: #000000;
+    background-image: url('../public/images/bgblur5.png');
+    background-size: 120% 120%;
     /* overflow: hidden; */
 }
 
@@ -32,4 +34,11 @@
 ::selection {
     color: black;
     background: white;
+}
+
+.bgblur1 {
+  position: fixed !important;
+  top: -50% !important;
+  right: -50% !important;
+  display: block;
 }

@@ -9,22 +9,11 @@ import '../components/Experience/Experience.css'
 import '../components/Projects/Projects.css'
 import '../components/Footer/Footer.css'
 
-import React, { useEffect } from 'react'
-import AOS from "aos";
+import React from 'react'
 import Head from 'next/head'
 import Script from 'next/script'
-import "aos/dist/aos.css"
-
 
 function MyApp({ Component, pageProps }) {
-  useEffect(() => {
-    AOS.init({
-      startEvent: 'load',
-      once: false,
-    })
-
-    window.addEventListener(`load`, AOS.refresh());
-  }, []);
   <>
 
   <Head>

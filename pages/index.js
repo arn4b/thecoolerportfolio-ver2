@@ -17,17 +17,17 @@ const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
 export default function Home() {
   return (
     <div className="body">
-              <AnimatedCursor 
-              innerSize={15}
-              outerSize={40}
-              color='255, 255, 255'
-              outerAlpha={0.2}
-              innerScale={0.6}
-              outerScale={2}
-              trailingSpeed={7}/>
-          <Head>
-          <title>Arnab Chatterjee</title>
-          </Head>
+        <AnimatedCursor 
+        innerSize={15}
+        outerSize={40}
+        color='255, 255, 255'
+        outerAlpha={0.2}
+        innerScale={0.6}
+        outerScale={2}
+        trailingSpeed={7}/>
+        <Head>
+        <title>Arnab Chatterjee</title>
+        </Head>
 
         <Navbar />
         <Landing />
