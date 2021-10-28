@@ -8,6 +8,7 @@ import '../components/Tech/Tech.css'
 import '../components/Experience/Experience.css'
 import '../components/Projects/Projects.css'
 import '../components/Footer/Footer.css'
+import '../components/Contact/Contact.css'
 
 import React from 'react'
 import Head from 'next/head'
@@ -28,6 +29,8 @@ function MyApp({ Component, pageProps }) {
     <link href="//db.onlinewebfonts.com/c/61486c71563f7840de6d1c7e0a2ed07e?family=Cosi+Azure+Bold" rel="stylesheet" type="text/css"/>
 
     <link href="//db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold" rel="stylesheet" type="text/css"/> 
+
+    <link href="//db.onlinewebfonts.com/c/27cb2381f8e348c531e19a16b9921082?family=Suisse+Works+Bold" rel="stylesheet" type="text/css"/> 
   </Head>
 
   <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>

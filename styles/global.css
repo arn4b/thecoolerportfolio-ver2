@@ -6,34 +6,54 @@
 @import url('https://db.onlinewebfonts.com/c/067cc4a05526cc8001ffbe6a576eace4?family=Cosi+Azure+Black+Stencil');
 @import url('https://db.onlinewebfonts.com/c/61486c71563f7840de6d1c7e0a2ed07e?family=Cosi+Azure+Bold');
 @import url('https://db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold');
+@import url('https://db.onlinewebfonts.com/c/27cb2381f8e348c531e19a16b9921082?family=Suisse+Works+Bold');
 
-@font-face {font-family: "Cosi Azure Bold"; src: url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.eot"); src: url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.woff") format("woff"), url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.svg#Cosi Azure Bold") format("svg"); } 
-@font-face {font-family: "Circular Std Bold"; src: url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot"); src: url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff") format("woff"), url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.svg#Circular Std Bold") format("svg"); } 
+@font-face {
+  font-family: "Cosi Azure Bold";
+  src: url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.eot");
+  src: url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.woff") format("woff"), url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.svg#Cosi Azure Bold") format("svg");
+}
+
+@font-face {
+  font-family: "Suisse Works Bold";
+  src: url("https://db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.eot");
+  src: url("https://db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.woff") format("woff"), url("https://db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.svg#Suisse Works Bold") format("svg");
+}
 
 .body {
-    background-color: #000000;
-    background-image: url('../public/images/bgblur5.png');
-    background-size: 120% 120%;
-    /* overflow: hidden; */
+  background-color: #000000;
+
+  --dot-size: 1px;
+  --dot-space: 22px;
+  min-width: 95vw;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #000 21px, transparent 1%) 50%, linear-gradient(#000 21px, transparent 1%) 50%, #7b0096;
+  background-size: auto, auto, auto;
+  background-size: var(--dot-space) var(--dot-space);
+
+  /* background-image: url('../public/images/bgblur5.png');
+    background-size: 120% 120%; */
+  /* overflow: hidden; */
 }
 
 .mandatory-scroll-snapping {
-    scroll-snap-type: x mandatory;
-  }
+  scroll-snap-type: x mandatory;
+}
 
 .rcs-custom-scrollbar {
-      width: 45px;
-  }
+  width: 45px;
+}
+
 .rcs-inner-handle {
-    background-color: inherit;
-    background-image: url("http://rommguy.github.io/react-custom-scroll/example/giraffe-icon.png");
-    background-repeat: no-repeat no-repeat;
-    background-size: cover;
-  }
+  background-color: inherit;
+  background-image: url("http://rommguy.github.io/react-custom-scroll/example/giraffe-icon.png");
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+}
 
 ::selection {
-    color: black;
-    background: white;
+  color: black;
+  background: white;
 }
 
 .bgblur1 {
