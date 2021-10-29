@@ -4,7 +4,7 @@ import React from 'react'
 import arnab from '../../public/images/MOSHED-2021-9-22-18-37-25.jpg'
 import Fade from 'react-reveal/Fade';
 
-import { Row, Col, Grid, Button } from '@nextui-org/react';
+import { Row, Col, Grid, Button, Spacer } from '@nextui-org/react';
 
 
 
@@ -19,7 +19,9 @@ export default function About() {
                 <Grid.Container gap={2} justify="center" className="about-content">
                     <Grid md={6} className="flex flex-col">
                         <Fade bottom duration={2000}>
-                            <p className="about-main-text">React <Image className="logos" src={rlogowhite} width="75px" height="67px" /><br /> Next.js <Image className="logos" src={nextlogo} width="75px" height="75px" /><br /> and a sh*t ton of CSS.</p>
+                            <p className="about-main-text">All Work, All Play</p>
+                            <p className="about-subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <Spacer y={1}/>
                             <Button className="about-btn" size="xlarge" shadow color="gradient" auto>Get My Resume</Button>
                         </Fade>
 

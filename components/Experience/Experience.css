@@ -39,6 +39,10 @@
     justify-content: center !important;
 }
 
+.tooltip-content {
+    font-family: 'Circular Std Bold', sans-serif !important;
+}
+
 .tool-header {
     font-size: 2rem !important;
     font-family: 'Circular Std Bold', sans-serif;

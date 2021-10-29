@@ -1,6 +1,9 @@
 import React from 'react'
 import { Container } from '@mui/material'
 import Fade from 'react-reveal/Fade';
+import Image from 'next/image'
+
+import msckiit from '../../public/logos/msckiit.png'
 
 import { Tooltip, Text, Row, Col, Grid, Button } from '@nextui-org/react';
 
@@ -12,44 +15,24 @@ export default function Experience() {
             <Container className="exp-cont">
                 <Fade bottom duration={2000}>
                     <p className="exp-main-text">
-                        <Tooltip content={<MSC />} placement="bottom">
+                        <Tooltip className="tooltip" content={"Jan \'21 - Present"} placement="right">
                             <Text>Web Dev Lead @ MSC KIIT</Text>
                         </Tooltip>
 
-                        <Tooltip content={'Yo wassup'} placement="bottom">
+                        <Tooltip className="tooltip" content={'July \'21 - Sep \'21'} placement="right">
                             <Text>Frontend Intern @ Mauka</Text>
                         </Tooltip>
 
-                        <Tooltip content={'Developers love Next.js'} placement="bottom">
+                        <Tooltip className="tooltip" content={'Apr \'21 - Present'} placement="right">
                             <Text>Web Team Core @ HackClub</Text>
                         </Tooltip>
 
-                        <Tooltip content={'Developers love Next.js'} placement="bottom">
+                        <Tooltip className="tooltip" content={'Apr \'21 - Present'} placement="right">
                             <Text>Frontend Dev @ Mozilla BBSR</Text>
                         </Tooltip>
                     </p>
                 </Fade>
             </Container>
         </div>
-    )
-}
-
-function MSC() {
-    return (
-        <div>
-            <Container>
-                <Text className="tool-header" h1>Web Team Lead at Microsoft Students Community KIIT</Text>
-                <Grid.Container gap={2} justify="center">
-                    <Grid md={6}>
-                        <img src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg" />
-                    </Grid>
-                    <Grid md={6}>
-                        <h1></h1>
-                    </Grid>
-                </Grid.Container>
-            </Container>
-        </div>
-
-
     )
 }

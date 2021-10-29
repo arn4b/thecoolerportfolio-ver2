@@ -42,6 +42,13 @@
     display: flex !important;
 }
 
+.about-subtext {
+    font-size: 1.75rem;
+    font-family: 'Circular Std Bold', sans-serif;
+    color: white;
+    margin: 1rem 0;
+}
+
 .about-btn {
     font-family: 'Circular Std Bold', sans-serif !important;
 }
