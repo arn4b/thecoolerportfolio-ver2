@@ -22,3 +22,42 @@
     transition: 0.5s ease;
     
 }
+
+.hr {
+    border-left: 1px solid white;
+    width: 1px;
+    height: 125px;
+    margin: 1rem 0;
+}
+
+.credits {
+    color: white;
+    font-family: 'Circular Std Bold', sans-serif ;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.made-with {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.powered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

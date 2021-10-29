@@ -33,7 +33,7 @@
   --dot-space: 22px;
   min-width: 95vw;
   min-height: 100vh;
-  background: linear-gradient(90deg, #000 21px, transparent 1%) 50%, linear-gradient(#000 21px, transparent 1%) 50%, #7b0096;
+  background: linear-gradient(90deg, #000 21px, transparent 1%) 50%, linear-gradient(#000 21px, transparent 1%) 50%, #373737;
   background-size: auto, auto, auto;
   background-size: var(--dot-space) var(--dot-space);
 

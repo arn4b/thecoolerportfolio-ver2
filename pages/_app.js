@@ -41,6 +41,8 @@ function MyApp({ Component, pageProps }) {
 
   <Script src="https://unpkg.com/react-custom-scroll@4.3.0/dist/reactCustomScroll.js"></Script>
 
+  <Script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></Script>
+
   </>
 
 

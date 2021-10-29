@@ -17,6 +17,7 @@
     "@mui/material": "^5.0.0",
     "@nextui-org/react": "^1.0.1-alpha.55",
     "aos": "^2.3.4",
+    "boxicons": "^2.0.9",
     "framer-motion": "^4.1.17",
     "next": "11.1.2",
     "react": "17.0.2",
