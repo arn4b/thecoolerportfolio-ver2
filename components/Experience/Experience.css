@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Circular Std Bold:wght@100;200;300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+
 .experience {
     height: 100vh;
     /* background-color: red; */
@@ -31,7 +33,7 @@
 .exp-main-text {
     font-size: 4.5rem;
     font-family: 'Circular Std Bold', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: white;
     z-index: 111 !important;
     display: flex !important;
@@ -47,4 +49,19 @@
     font-size: 2rem !important;
     font-family: 'Circular Std Bold', sans-serif;
 
+}
+
+@media only screen and (max-width: 786px)
+{
+    .exp-header {
+        font-size: 5rem;
+    }
+
+    .exp-main-text {
+        font-size: 1.75rem;
+    }
+
+    .experience {
+        height: 75vh;
+    }
 }

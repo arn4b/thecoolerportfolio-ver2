@@ -15,20 +15,20 @@ export default function Experience() {
             <Container className="exp-cont">
                 <Fade bottom duration={2000}>
                     <p className="exp-main-text">
-                        <Tooltip className="tooltip" content={"Jan \'21 - Present"} placement="right">
+                        <Tooltip className="tooltip" content={"Jan \'21 - Present"} placement="right" hideArrow>
                             <Text>Web Dev Lead @ MSC KIIT</Text>
                         </Tooltip>
 
-                        <Tooltip className="tooltip" content={'July \'21 - Sep \'21'} placement="right">
+                        <Tooltip className="tooltip" content={'July \'21 - Sep \'21'} placement="right" hideArrow>
                             <Text>Frontend Intern @ Mauka</Text>
                         </Tooltip>
 
-                        <Tooltip className="tooltip" content={'Apr \'21 - Present'} placement="right">
-                            <Text>Web Team Core @ HackClub</Text>
+                        <Tooltip className="tooltip" content={'Apr \'21 - Present'} placement="right" hideArrow>
+                            <Text>Tech Lead @ Mozilla BBSR</Text>
                         </Tooltip>
 
-                        <Tooltip className="tooltip" content={'Apr \'21 - Present'} placement="right">
-                            <Text>Frontend Dev @ Mozilla BBSR</Text>
+                        <Tooltip className="tooltip" content={'Apr \'21 - Present'} placement="right" hideArrow>
+                            <Text>Web Team Core @ HackClub</Text>
                         </Tooltip>
                     </p>
                 </Fade>

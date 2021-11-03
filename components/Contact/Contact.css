@@ -54,5 +54,12 @@ input {
 textarea {
     color: white !important;
     font-family: 'Circular Std Bold', sans-serif !important;
-    width: 1800px !important;
+    /* width: 1800px !important; */
+}
+
+@media only screen and (max-width: 786px)
+{
+    .contact-header {
+        font-size: 5rem;
+    }
 }

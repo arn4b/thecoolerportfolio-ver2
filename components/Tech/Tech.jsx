@@ -27,7 +27,7 @@ export default function Tech() {
                     </Grid>
                     <Grid md={6}>
                         <Fade bottom duration={2000}>
-                            <Image src={tech} />
+                            <Image className="tech-img" src={tech} />
                         </Fade>
                     </Grid>
                 </Grid.Container>

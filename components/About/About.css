@@ -29,17 +29,20 @@
 .about-main-text {
     font-size: 4rem;
     font-family: 'Circular Std Bold', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
-.about-content {
+/* .about-content {
     display: flex !important;
     flex-direction: column;
     justify-content: center !important;
-}
+} */
 
 .abt-cont {
     display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
 }
 
 .about-subtext {
@@ -74,5 +77,28 @@
 
     to {
         transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 786px)
+{
+    .about-header {
+        font-size: 5rem;
+    }
+
+    .about-img {
+        border-radius: 1rem !important;
+    }
+    
+    .about-main-text {
+        font-size: 2rem;
+    }
+
+    .about-subtext {
+        font-size: 1.25rem;
+    }
+
+    .about {
+        height: 120vh;
     }
 }

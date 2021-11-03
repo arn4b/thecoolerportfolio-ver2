@@ -28,9 +28,10 @@ function MyApp({ Component, pageProps }) {
 
     <link href="//db.onlinewebfonts.com/c/61486c71563f7840de6d1c7e0a2ed07e?family=Cosi+Azure+Bold" rel="stylesheet" type="text/css"/>
 
-    <link href="//db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold" rel="stylesheet" type="text/css"/> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> 
 
-    <link href="//db.onlinewebfonts.com/c/27cb2381f8e348c531e19a16b9921082?family=Suisse+Works+Bold" rel="stylesheet" type="text/css"/> 
+    <link href="https://fonts.googleapis.com/css2?family=Circular Std Bold:wght@100;200;300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet" /> 
   </Head>
 
   <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>

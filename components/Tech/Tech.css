@@ -33,7 +33,7 @@
 .tech-text {
     font-size: 4rem;
     font-family: 'Circular Std Bold', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: white;
 }
 
@@ -41,4 +41,40 @@
     font-size: 1.75rem;
     font-family: 'Circular Std Bold', sans-serif;
     color: white;
+}
+
+.tech-img {
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@media only screen and (max-width: 786px)
+{
+    .tech-header {
+        font-size: 5rem;
+    }
+
+    .tech-text {
+        font-size: 2rem;
+    }
+
+    .tech-subtext {
+        font-size: 1.25rem;
+    }
+
+    .tech {
+        height: 125vh;
+    }
 }

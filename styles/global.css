@@ -2,28 +2,21 @@
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-text.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
-@import url('https://db.onlinewebfonts.com/c/1094504ae47cb9cfa800bc04261c211a?family=Geomanist');
-@import url('https://db.onlinewebfonts.com/c/067cc4a05526cc8001ffbe6a576eace4?family=Cosi+Azure+Black+Stencil');
-@import url('https://db.onlinewebfonts.com/c/61486c71563f7840de6d1c7e0a2ed07e?family=Cosi+Azure+Bold');
-@import url('https://db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold');
-@import url('https://db.onlinewebfonts.com/c/27cb2381f8e348c531e19a16b9921082?family=Suisse+Works+Bold');
 
 @font-face {
   font-family: "Cosi Azure Bold";
-  src: url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.eot");
-  src: url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.woff") format("woff"), url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/61486c71563f7840de6d1c7e0a2ed07e.svg#Cosi Azure Bold") format("svg");
+  src: url("/fonts/Cosi Azure Black.ttf");
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
 }
 
 @font-face {
   font-family: "Circular Std Bold";
-  src: url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot");
-  src: url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff") format("woff"), url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.svg#Circular Std Bold") format("svg");
-}
-
-@font-face {
-  font-family: "Suisse Works Bold";
-  src: url("https://db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.eot");
-  src: url("https://db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.woff") format("woff"), url("https://db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/27cb2381f8e348c531e19a16b9921082.svg#Suisse Works Bold") format("svg");
+  src: url("/fonts/Circular Std Bold.ttf");
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
 }
 
 .body {
@@ -36,35 +29,4 @@
   background: linear-gradient(90deg, #000 21px, transparent 1%) 50%, linear-gradient(#000 21px, transparent 1%) 50%, #373737;
   background-size: auto, auto, auto;
   background-size: var(--dot-space) var(--dot-space);
-
-  /* background-image: url('../public/images/bgblur5.png');
-    background-size: 120% 120%; */
-  /* overflow: hidden; */
-}
-
-.mandatory-scroll-snapping {
-  scroll-snap-type: x mandatory;
-}
-
-.rcs-custom-scrollbar {
-  width: 45px;
-}
-
-.rcs-inner-handle {
-  background-color: inherit;
-  background-image: url("http://rommguy.github.io/react-custom-scroll/example/giraffe-icon.png");
-  background-repeat: no-repeat no-repeat;
-  background-size: cover;
-}
-
-::selection {
-  color: black;
-  background: white;
-}
-
-.bgblur1 {
-  position: fixed !important;
-  top: -50% !important;
-  right: -50% !important;
-  display: block;
 }
