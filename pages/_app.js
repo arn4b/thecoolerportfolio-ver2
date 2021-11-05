@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
     <link href="//db.onlinewebfonts.com/c/61486c71563f7840de6d1c7e0a2ed07e?family=Cosi+Azure+Bold" rel="stylesheet" type="text/css"/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> 
+    {/* <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />  */}
 
     <link href="https://fonts.googleapis.com/css2?family=Circular Std Bold:wght@100;200;300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet" /> 
   </Head>
