@@ -38,6 +38,10 @@
     justify-content: center !important;
 } */
 
+.abt-text-section {
+    justify-content: center;
+}
+
 .abt-cont {
     display: flex !important;
     justify-content: center;

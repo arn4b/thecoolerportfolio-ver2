@@ -19,7 +19,7 @@ export default function About() {
             <h1 className="about-header">About</h1>
             <Container className="abt-cont">
                 <Grid.Container gap={2} justify="center" className="about-content">
-                    <Grid xs={12} md={6} className="flex flex-col">
+                    <Grid xs={12} md={6} className="flex flex-col abt-text-section">
                         <Fade bottom duration={2000}>
                             <p className="about-main-text">All Work, All Play</p>
                             <p className="about-subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

@@ -21,8 +21,6 @@ export default function Tech() {
                         <Fade bottom duration={2000}>
                             <h1 className="tech-text">Jack of all trades, Master of One</h1>
                             <h2 className="tech-subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h2>
-                            <Spacer y={1}/>
-                            <Button className="about-btn" size="xlarge" shadow color="gradient" auto>Github</Button>
                         </Fade>
                     </Grid>
                     <Grid md={6}>
