@@ -1,0 +1,72 @@
+.projects {
+    /* background-color: red; */
+    height: 150vh;
+    position: relative;
+    display: flex;
+    z-index: 0;
+}
+
+.projects-header {
+    font-size: 13rem;
+    font-family: 'Cosi Azure Bold', serif;
+    font-weight: 700;
+    color: rgba(123, 0, 150, 0.5);
+    position: absolute;
+    top: 0px;
+    z-index: -1 !important;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.projects-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.proj-box {
+    /* height: 15rem; */
+    /* border: 1px white solid; */
+    width: 100%;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Circular Std Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj-img {
+    border-radius: 0.5rem;
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+}
+
+.proj-img:hover {
+    filter: grayscale(0%);
+    transition: 0.5s ease;
+}
+
+@media only screen and (max-width: 786px)
+{
+    .projects-header {
+        font-size: 5rem;
+    }
+
+    /* .tech-text {
+        font-size: 2rem;
+    }
+
+    .tech-subtext {
+        font-size: 1.25rem;
+    }
+
+    .tech {
+        height: 125vh;
+    } */
+}
