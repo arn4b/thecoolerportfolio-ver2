@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 
 import { Row, Col, Grid, Button, Spacer } from '@nextui-org/react';
 
-
+import arnab1 from '../../public/images/peep1.svg'
 
 import rlogowhite from '../../public/images/react-logo-white.png'
 import nextlogo from '../../public/images/next-logo.png'
