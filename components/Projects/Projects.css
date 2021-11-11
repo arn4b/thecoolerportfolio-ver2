@@ -52,10 +52,10 @@
     transition: 0.5s ease;
 }
 
-@media only screen and (max-width: 786px)
+@media only screen and (max-width: 960px)
 {
     .projects-header {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     /* .tech-text {
@@ -64,9 +64,9 @@
 
     .tech-subtext {
         font-size: 1.25rem;
-    }
-
-    .tech {
-        height: 125vh;
     } */
+
+    .projects {
+        height: unset;
+    }
 }

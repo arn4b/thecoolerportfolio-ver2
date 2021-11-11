@@ -1,7 +1,10 @@
 import { Container, Grid } from '@mui/material'
 import React from 'react'
+import Image from 'next/image';
+
 import { motion } from "framer-motion"
 import Fade from 'react-reveal/Fade';
+
 
 export default function Landing() {
 
