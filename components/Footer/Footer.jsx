@@ -10,12 +10,17 @@ import caffiene from '../../public/images/caffiene.png'
 import next from '../../public/logos/next-logo.png'
 import nextui from '../../public/logos/nextui.svg'
 
+import { FiTwitter, FiGithub, FiLinkedin } from 'react-icons/fi'
 
 export default function Footer() {
     return (
         <div className="footer">
             <Container>
-                {/* <h1 className="footer-header">Socials</h1> */}
+                <div className="socials">
+                    <a href="https://twitter.com/arn4b_"><FiTwitter className="social-icon" /></a>
+                    <a href="https://github.com/arn4b"><FiGithub className="social-icon" /></a>
+                    <a href="https://www.linkedin.com/in/arnab-chatterjee-3944341a0/"><FiLinkedin className="social-icon" /></a>
+                </div>
 
                 <div className="credits">
                     <div className="made-with">

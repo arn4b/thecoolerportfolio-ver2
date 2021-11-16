@@ -5,22 +5,23 @@
     color: #fff;
 }
 
-.social-links {
-    font-size: 2rem;
-    font-family: 'Circular Std Bold', sans-serif;
-    font-weight: 700;
+.socials {
     color: white;
-    text-align: center;
-    margin: 2rem 0;
-    padding: 1rem;
-    border: 2px solid white;
-    border-radius: 1rem;
+    font-size: 3rem;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
 }
 
-.social-links:hover {
-    color: #7b0096;
+.social-icon {
     transition: 0.5s ease;
-    
+}
+
+.social-icon:hover {
+    color: #7b0096;
+    transform: scale(1.3);
+    transition: 0.5s ease;
 }
 
 .hr {

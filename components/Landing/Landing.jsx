@@ -9,7 +9,7 @@ import Fade from 'react-reveal/Fade';
 export default function Landing() {
 
     return (
-        <div className="landing">
+        <div className="landing" id="home">
             <Container>
                         <Fade duration={2500} delay={500} big>
                             <h3 className="landing-h3">Hello, I&apos;m </h3>

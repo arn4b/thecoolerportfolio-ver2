@@ -5,6 +5,7 @@
     justify-content: space-between;
     /* background-color: red; */
     font-family: 'Cosi Azure Bold', serif;
+    z-index: 999999;
 }
 
 .navbar-text {

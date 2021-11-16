@@ -9,9 +9,9 @@ export default function Navbar() {
         <h1 className="navbar-text">A.</h1>
         <div className="navbar-items">
           <h3 className="navbar-items-text"><a href="#about">About</a></h3>
-          <h3 className="navbar-items-text">Tech</h3>
-          <h3 className="navbar-items-text">Work</h3>
-          <h3 className="navbar-items-text">Contact</h3>
+          <h3 className="navbar-items-text"><a href="#tech">Tech</a></h3>
+          <h3 className="navbar-items-text"><a href="#work">Work</a></h3>
+          <h3 className="navbar-items-text"><a href="#contact">Contact</a></h3>
         </div>
       </div>
     </Fade>

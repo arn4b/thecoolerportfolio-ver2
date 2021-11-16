@@ -21,7 +21,7 @@
 
 .body {
   background-color: #000000;
-
+  scroll-behavior: smooth;
   --dot-size: 1px;
   --dot-space: 22px;
   min-width: 95vw;

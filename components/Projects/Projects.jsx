@@ -18,28 +18,28 @@ import hackclub from "../../public/images/hackclub.png"
 
 export default function Projects() {
     return (
-        <div className="projects">
-            <h1 className="projects-header">Portfolio</h1>
+        <div className="projects" id="work">
+            <h1 className="projects-header">Projects</h1>
 
             <Container className="projects-container">
                 <Fade bottom duration={2000}>
                     <Grid.Container gap={2} justify="center">
                         <Grid md={4}>
-                            <a href="https://maukaeducation.com/">
+                            <a href="https://maukaeducation.com/" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={mauka} />
                                 </div>
                             </a>
                         </Grid>
                         <Grid md={4}>
-                            <a href="https://github.com/arn4b/firepost">
+                            <a href="https://github.com/arn4b/firepost" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={firepost} />
                                 </div>
                             </a>
                         </Grid>
                         <Grid md={4}>
-                            <a href="https://github.com/arn4b/instagram-clone">
+                            <a href="https://github.com/arn4b/instagram-clone" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={instaclone} />
                                 </div>
@@ -47,21 +47,21 @@ export default function Projects() {
                         </Grid>
 
                         <Grid md={4}>
-                            <a href="https://github.com/arn4b/superchat">
+                            <a href="https://github.com/arn4b/superchat" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={firechat} />
                                 </div>
                             </a>
                         </Grid>
                         <Grid md={4}>
-                            <a href="https://github.com/arn4b/discord-bot-gen1">
+                            <a href="https://github.com/arn4b/discord-bot-gen1" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={discordbot} />
                                 </div>
                             </a>
                         </Grid>
                         <Grid md={4}>
-                            <a href="https://newsdux.pages.dev">
+                            <a href="https://newsdux.pages.dev" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={newsdux} />
                                 </div>
@@ -69,14 +69,14 @@ export default function Projects() {
                         </Grid>
 
                         <Grid md={4}>
-                            <a href="https://daedarus.co">
+                            <a href="https://daedarus.co" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={daedarus} />
                                 </div>
                             </a>
                         </Grid>
                         <Grid md={4}>
-                            <a href="https://kiit.hackclub.com">
+                            <a href="https://kiit.hackclub.com" target="__blank">
                                 <div className="proj-box">
                                     <Image priority className="proj-img" src={hackclub} />
                                 </div>
@@ -84,8 +84,8 @@ export default function Projects() {
                         </Grid>
                         <Grid md={4}>
                             <div className="proj-box">
-                                <a href="https://github.com/arn4b">
-                                    <h1>and more...</h1>
+                                <a href="https://github.com/arn4b" target="__blank">
+                                <Button className="about-btn" size="xlarge" shadow color="gradient" auto>and more...</Button>
                                 </a>
                             </div>
                         </Grid>
