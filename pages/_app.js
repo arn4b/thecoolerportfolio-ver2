@@ -23,15 +23,20 @@ function MyApp({ Component, pageProps }) {
 
 
     <title>Arnab Chatterjee</title>
-    <link rel="shortcut icon" href="https://maukaedu.s3.ap-south-1.amazonaws.com/favicon.ico" />
+
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
     <link href="//db.onlinewebfonts.com/c/61486c71563f7840de6d1c7e0a2ed07e?family=Cosi+Azure+Bold" rel="stylesheet" type="text/css"/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    {/* <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />  */}
 
     <link href="https://fonts.googleapis.com/css2?family=Circular Std Bold:wght@100;200;300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet" /> 
+
+    <meta property="og:title" content="Arnab Chatterjee" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://arn4b.vercel.app" />
+    <meta property="og:image" content="https://user-images.githubusercontent.com/60937304/142048262-9fa15151-11ff-41cc-9a50-f3086b7cb530.png" />
+    <meta property="og:description" content="Arnab Chatterjee | Frontend Developer" />
   </Head>
 
   <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>

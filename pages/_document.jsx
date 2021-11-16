@@ -19,7 +19,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html prefix="og: https://ogp.me/ns#">
         <Head />
         <body>
           <Main />
