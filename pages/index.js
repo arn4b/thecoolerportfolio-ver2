@@ -28,6 +28,12 @@ export default function Home() {
         trailingSpeed={7}/>
         <Head>
         <title>Arnab Chatterjee</title>
+
+        <meta property="og:title" content="Arnab Chatterjee" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://arn4b.vercel.app" />
+        <meta property="og:image" content="https://user-images.githubusercontent.com/60937304/142048262-9fa15151-11ff-41cc-9a50-f3086b7cb530.png" />
+        <meta property="og:description" content="Arnab Chatterjee | Frontend Developer" />
         </Head>
 
         <Navbar />
