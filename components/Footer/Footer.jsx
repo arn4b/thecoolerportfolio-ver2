@@ -11,6 +11,7 @@ import next from '../../public/logos/next-logo.png'
 import nextui from '../../public/logos/nextui.svg'
 
 import { FiTwitter, FiGithub, FiLinkedin } from 'react-icons/fi'
+import { SiPolywork } from 'react-icons/si'
 
 export default function Footer() {
     return (
@@ -20,6 +21,7 @@ export default function Footer() {
                     <a href="https://twitter.com/arn4b_"><FiTwitter className="social-icon" /></a>
                     <a href="https://github.com/arn4b"><FiGithub className="social-icon" /></a>
                     <a href="https://www.linkedin.com/in/arnab-chatterjee-3944341a0/"><FiLinkedin className="social-icon" /></a>
+                    <a href="https://www.polywork.com/arn4b"><SiPolywork className="social-icon" /></a>
                 </div>
 
                 <div className="credits">

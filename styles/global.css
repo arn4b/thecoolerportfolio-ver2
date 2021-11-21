@@ -19,14 +19,27 @@
   font-display: block;
 }
 
+::selection {
+  color: black;
+  background: white;
+}
+
 .body {
   background-color: #000000;
   scroll-behavior: smooth;
   --dot-size: 1px;
-  --dot-space: 22px;
+  --dot-space: 22.4px;
   min-width: 95vw;
   min-height: 100vh;
   background: linear-gradient(90deg, #000 21px, transparent 1%) 50%, linear-gradient(#000 21px, transparent 1%) 50%, #5c5c5c;
   background-size: auto, auto, auto;
   background-size: var(--dot-space) var(--dot-space);
+
+  animation: floating 150s linear infinite;
+}
+
+@keyframes floating {
+  100% {
+    background-position: 50px 0,125px 25px;
+  }
 }
