@@ -67,9 +67,14 @@
 
     .credits {
         flex-direction: column;
+        font-size: 1.25rem;
     }
 
     .hr {
         display: none;
+    }
+
+    .social-icon {
+        font-size: 2rem;
     }
 }
