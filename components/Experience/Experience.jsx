@@ -16,19 +16,19 @@ export default function Experience() {
                 <Fade bottom duration={2000}>
                     <p className="exp-main-text">
                         <Tooltip className="tooltip" content={"Jan \'21 - Present"} placement="right" hideArrow rounded>
-                            <Text>Web Dev Lead @ MSC KIIT</Text>
+                            <Text>Web Dev Lead @ <span style={{'color' : '#0176d3'}}>MSC KIIT</span></Text>
                         </Tooltip>
 
                         <Tooltip className="tooltip" content={'Apr \'21 - Present'} placement="right" hideArrow rounded>
-                            <Text>Tech Lead @ Mozilla BBSR</Text>
+                            <Text>Tech Lead @ <span style={{'color' : '#f21900'}}>Mozilla BBSR</span></Text>
                         </Tooltip>
 
                         <Tooltip className="tooltip" content={'July \'21 - Sep \'21'} placement="right" hideArrow rounded>
-                            <Text>Frontend Intern @ Mauka</Text>
+                            <Text>Frontend Intern @ <span style={{'color' : '#283891'}}>Mauka</span></Text>
                         </Tooltip>
 
                         <Tooltip className="tooltip" content={'Apr \'21 - Present'} placement="right" hideArrow rounded>
-                            <Text>Web Team Core @ HackClub</Text>
+                            <Text>Web Team Core @ <span style={{'color' : '#ec3750'}}>HackClub</span></Text>
                         </Tooltip>
                     </p>
                 </Fade>
