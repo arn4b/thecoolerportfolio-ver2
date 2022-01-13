@@ -17,7 +17,7 @@ export default function Experience() {
                     <p className="exp-main-text">
 
                         <Tooltip className="tooltip" content={'Jan \'22 - Present'} placement="right" hideArrow rounded>
-                            <Text>Frontend Intern @ <span style={{'color' : '#8247e5'}}>Polygon Tech.</span></Text>
+                            <Text>Frontend Intern @ <span style={{'color' : '#8247e5'}}>Polygon</span></Text>
                         </Tooltip>
 
                         <Tooltip className="tooltip" content={"Jan \'21 - Present"} placement="right" hideArrow rounded>
