@@ -22,9 +22,9 @@ export default function Experience() {
 
                         <Tooltip className="tooltip" content={'Jan \'22 - Present'} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>Frontend Intern @
-                                <span style={{ 'display': 'flex', 'marginLeft': '20px' }} >
-                                    <Image src={polygon} height="75" width="75" />
-                                    <span style={{ 'color': '#8247e5', 'marginLeft':'10px' }}> Polygon</span>
+                                <span style={{ 'display': 'flex', 'marginLeft': '10px' }} >
+                                    {/* <Image src={polygon} width={75} height={75}/> */}
+                                    <span style={{ 'color': '#8247e5' }}> Polygon</span>
                                 </span>
                             </Text>
 
@@ -32,36 +32,36 @@ export default function Experience() {
 
                         <Tooltip className="tooltip" content={"Jan \'21 - Present"} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>Web Dev Lead @
-                                <span style={{ 'display': 'flex', 'marginLeft': '20px' }}>
-                                    <Image src={msc} height="85" width="75" />
-                                    <span style={{ 'color': '#0176d3', 'marginLeft':'10px' }}>MSC KIIT</span>
+                                <span style={{ 'display': 'flex', 'marginLeft': '10px' }}>
+                                    {/* <Image src={msc} height="85" width="75" /> */}
+                                    <span style={{ 'color': '#0176d3' }}>MSC KIIT</span>
                                 </span>
                             </Text>
                         </Tooltip>
 
                         <Tooltip className="tooltip" content={'Apr \'21 - Present'} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>Tech Lead @
-                                <span style={{ 'display': 'flex', 'marginLeft': '20px' }}>
-                                    <Image src={mozilla} height="75" width="75" />
-                                    <span style={{ 'color': '#f21900', 'marginLeft':'10px' }}>Mozilla BBSR</span>
+                                <span style={{ 'display': 'flex', 'marginLeft': '10px' }}>
+                                    {/* <Image src={mozilla} height="75" width="75" /> */}
+                                    <span style={{ 'color': '#f21900' }}>Mozilla BBSR</span>
                                 </span>
                             </Text>
                         </Tooltip>
 
                         <Tooltip className="tooltip" content={'July \'21 - Sep \'21'} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>Frontend Intern @
-                                <span style={{ 'display': 'flex', 'marginLeft': '20px' }}>
-                                    <Image src={mauka} height="65" width="65" />
-                                    <span style={{ 'color': '#283891', 'marginLeft':'10px' }}>Mauka</span>
+                                <span style={{ 'display': 'flex', 'marginLeft': '10px' }}>
+                                    {/* <Image src={mauka} height="65" width="65" /> */}
+                                    <span style={{ 'color': '#283891' }}>Mauka</span>
                                 </span>
                             </Text>
                         </Tooltip>
 
                         <Tooltip className="tooltip" content={'Apr \'21 - Present'} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>Web Team Core @
-                                <span style={{ 'display': 'flex', 'marginLeft': '20px' }}>
-                                    <Image src={hackclub} height="60" width="60" />
-                                    <span style={{ 'color': '#ec3750', 'marginLeft':'10px' }}>HackClub</span>
+                                <span style={{ 'display': 'flex', 'marginLeft': '10px' }}>
+                                    {/* <Image src={hackclub} height="60" width="60" /> */}
+                                    <span style={{ 'color': '#ec3750' }}>HackClub</span>
                                 </span>
                             </Text>
                         </Tooltip>
