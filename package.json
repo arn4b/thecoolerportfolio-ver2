@@ -22,6 +22,7 @@
     "next": "11.1.2",
     "react": "17.0.2",
     "react-animated-cursor": "^2.2.0",
+    "react-calendly": "^3.0.0",
     "react-custom-scroll": "^4.3.0",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",

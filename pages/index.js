@@ -11,6 +11,8 @@ import Projects from '../components/Projects/Projects'
 import Footer from '../components/Footer/Footer'
 import Contact from '../components/Contact/Contact'
 
+import { PopupWidget, InlineWidget  } from "react-calendly";
+
 const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
   ssr: false
 });
@@ -36,6 +38,8 @@ export default function Home() {
         <meta property="og:description" content="Arnab Chatterjee | Frontend Developer" />
         </Head>
 
+        
+
         <Navbar />
         <Landing />
         <About />
@@ -44,6 +48,7 @@ export default function Home() {
         <Projects />
         <Contact />
         <Footer />
+        <InlineWidget  url="https://calendly.com/arn4b/30min"/>
     </div>
   )
 }
