@@ -2,7 +2,7 @@ import { Container, Box, Paper } from '@mui/material'
 import { styled } from '@mui/material/styles';
 import React from 'react'
 import Image from 'next/image'
-import tech from '../../public/images/tech.png'
+import tech2 from '../../public/images/tech2.png'
 
 import { Row, Col, Grid, Button, Spacer } from '@nextui-org/react';
 import Fade from 'react-reveal/Fade';
@@ -23,7 +23,7 @@ export default function Tech() {
                     </Grid>
                     <Grid md={6}>
                         <Fade bottom duration={2000}>
-                            <Image className="tech-img" src={tech} />
+                            <Image className="tech-img" src={tech2} />
                         </Fade>
                     </Grid>
                 </Grid.Container>
