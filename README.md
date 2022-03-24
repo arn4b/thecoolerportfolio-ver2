@@ -5,7 +5,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
 ## Check it out at [arn4b.tech](https://arn4b.tech)
 
-### 🏆 This portfolio got ranked among [Akshay Saini's Top 20 Most Exciting Portfolio Website](https://www.linkedin.com/feed/update/urn:li:activity:6908809346789306368/) 🏆
+### 🏆 [Akshay Saini's Top 20 Most Exciting Portfolio Websites](https://www.linkedin.com/feed/update/urn:li:activity:6908809346789306368/) 🏆
 
 ## To run it on your local machine:
 1. Fork the repository.
