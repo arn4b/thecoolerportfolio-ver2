@@ -9,6 +9,7 @@ import '../components/Experience/Experience.css'
 import '../components/Projects/Projects.css'
 import '../components/Footer/Footer.css'
 import '../components/Contact/Contact.css'
+import '../pages/uses/uses.css'
 
 import React from 'react'
 import Head from 'next/head'

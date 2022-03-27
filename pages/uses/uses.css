@@ -1,0 +1,61 @@
+.uses-cont {
+    padding: 5rem 0;
+}
+
+.uses-stuff {
+    font-size: 4rem;
+    font-family: 'Circular Std Bold', sans-serif;
+    font-weight: 600;
+    color: white;
+    z-index: 1 !important;
+    position: relative;
+}
+
+.uses-h2 {
+    font-size: 5rem;
+    font-family: 'Cosi Azure Bold', serif;
+    font-weight: 700;
+    color: rgba(123, 0, 150, 0.9);
+    z-index: 0 !important;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.uses-equipment {
+    font-size: 2rem;
+    font-family: 'Circular Std Bold', sans-serif;
+    font-weight: 600;
+    color: white;
+    z-index: 1 !important;
+    position: relative;
+}
+
+.eqpmnt {
+    margin: 1rem 0;
+}
+
+
+@media (max-width: 968px) {
+    .uses-cont {
+        padding: 5rem 1rem;
+    }
+
+    .uses-stuff {
+        font-size: 2rem;
+    }
+    
+    .uses-h2 {
+        font-size: 3rem;
+        top: 3rem;
+    }
+
+    .uses-equipment {
+        font-size: 1rem;
+    }
+    
+}
