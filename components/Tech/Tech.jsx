@@ -14,7 +14,7 @@ export default function Tech() {
             <h1 className="tech-header">Tech</h1>
 
             <Container className="tech-cont">
-                <Grid.Container gap={2} justify="center">
+                <Grid.Container gap={2} justify="center" alignItems="center">
                     <Grid md={6} className="flex flex-col">
                         <Fade bottom duration={2000}>
                             <h1 className="tech-text">Jack of all trades, Master of One</h1>
