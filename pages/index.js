@@ -7,6 +7,7 @@ import Landing from '../components/Landing/Landing'
 import About from '../components/About/About'
 import Tech from '../components/Tech/Tech'
 import Experience from '../components/Experience/Experience'
+import ReactFlow from '../components/ReactFlow/ReactFlow'
 import Projects from '../components/Projects/Projects'
 import Footer from '../components/Footer/Footer'
 import Contact from '../components/Contact/Contact'
@@ -44,6 +45,7 @@ export default function Home() {
         <Landing />
         <About />
         <Experience />
+        <ReactFlow />
         <Tech />
         <Projects />
         <Contact />
