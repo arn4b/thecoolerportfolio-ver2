@@ -21,7 +21,7 @@ export default function Experience() {
                     <p className="exp-main-text">
 
                         <Tooltip className="tooltip" content={'Jul \'22 - Present '} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>Frontend Intern @
+                            <Text style={{ 'display': 'flex' }}>SWE Intern @
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px' }} >
                                     {/* <Image src={polygon} width={75} height={75}/> */}
                                     <span style={{ 'color': '#00b899' }}> Fi Money</span>
