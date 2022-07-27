@@ -11,7 +11,7 @@ import { Table } from "@nextui-org/react";
 
 const equipment = [
     {
-        name: "HP ProBook 440 G1 - the 360° powerhouse - literally 💥",
+        name: "Apple MacBook Pro 16inch - 2019 Intel i7 💥",
     },
     {
         name: "Acer V196L 75Hz - for the extra screen real estate",
@@ -33,6 +33,9 @@ const equipment = [
 const tools = [
     {
         name: "VS Code",
+    },
+    {
+        name: "Hyper - with ohmyzsh",
     },
     {
         name: "Firefox Developer edition",
