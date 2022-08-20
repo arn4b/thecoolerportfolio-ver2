@@ -11,22 +11,25 @@ import { Table } from "@nextui-org/react";
 
 const equipment = [
     {
-        name: "Apple MacBook Pro 16inch - 2019 Intel i7 💥",
+        name: "Apple MacBook Pro 16inch 🛐",
     },
     {
-        name: "Acer V196L 75Hz - for the extra screen real estate",
+        name: "Samsung 32-Inch UHD 4K LS32A800NWXXL - for the extra screen real estate 🏠",
     },
     {
         name: "CB GK16 Mechanical keeb w/ Outemu Blue Swithces - for the clickty clack typing experience 👀",
     },
     {
-        name: "Logitech G102 LightSync - it has 16.9m colors 🌈",
+        name: "Logitech G102 LightSync - for the wuntapz 🎮",
+    },
+    {
+        name: "Logitech MX720 Performance - this thing has a hidden button 💨",
     },
     {
         name: "Amazon Echo Dot v3 - frankly, just for the clock (and sometimes Spotify)",
     },
     {
-        name: "Oppo Enco M31 - just for the standups",
+        name: "Oppo Enco M31 - audio quality is a plus 🎧",
     },
 ]
 
@@ -35,13 +38,10 @@ const tools = [
         name: "VS Code",
     },
     {
-        name: "Hyper - with ohmyzsh",
-    },
-    {
         name: "Firefox Developer edition",
     },
     {
-        name: "Linear - for issue tracking",
+        name: "Linear & Monorail - for issue tracking",
     },
     {
         name: "Figma",
@@ -53,10 +53,7 @@ const tools = [
         name: "Spotify",
     },
     {
-        name: "Discord",
-    },
-    {
-        name: "Notion",
+        name: "Notion - gorgeous notetaking",
     },
 ]
 
