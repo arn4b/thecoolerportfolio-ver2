@@ -8,6 +8,12 @@
     z-index: 0;
 }
 
+.expImgContainer {
+    width: 65px;
+    /* height: 75px; */
+    margin: 0 10px 0 0;
+}
+
 .exp-header {
     font-size: 13rem;
     font-family: 'Cosi Azure Bold', serif;
@@ -62,5 +68,10 @@
 
     .experience {
         height: 75vh;
+    }
+
+    .expImgContainer {
+        width: 25px;
+        /* height: 25px; */
     }
 }
