@@ -63,7 +63,7 @@
     }
 
     .exp-main-text {
-        font-size: 1.5rem;
+        font-size: 1.35rem;
     }
 
     .experience {
@@ -73,5 +73,6 @@
     .expImgContainer {
         width: 25px;
         /* height: 25px; */
+        margin: 0 10px 0 0;
     }
 }
