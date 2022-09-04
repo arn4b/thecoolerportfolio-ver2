@@ -89,7 +89,7 @@ export default function Experience() {
                         </Tooltip>
 
                         <Tooltip className="tooltip" content={'Apr \'21 - Present'} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>Web Team Core @
+                            <Text style={{ 'display': 'flex' }}>Web Core @
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
                                         <div className='expImgContainer'>
                                             <Image className='expImage' layout='responsive' src={hackclub}/>
