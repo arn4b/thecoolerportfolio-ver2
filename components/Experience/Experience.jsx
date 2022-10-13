@@ -20,7 +20,7 @@ export default function Experience() {
 
             <Container className="exp-cont">
                 <Fade bottom duration={2000}>
-                    <p className="exp-main-text">
+                    {/* <p className="exp-main-text">
 
                         <Tooltip className="tooltip" content={'Jul \'23 '} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>Incoming SDE @
@@ -28,7 +28,7 @@ export default function Experience() {
                                         <div className='expImgContainer'>
                                             <Image className='expImage' layout='responsive' src={amazon}/>
                                         </div>
-                                    <span style={{ 'color': '#FF9900' }}> Amazon</span>
+                                    <span style={{ 'color': 'rgb(255, 153, 0)' }}> Amazon</span>
                                 </span>
                             </Text>
                         </Tooltip>
@@ -39,7 +39,7 @@ export default function Experience() {
                                         <div className='expImgContainer'>
                                             <Image className='expImage' layout='responsive' src={fi}/>
                                         </div>
-                                    <span style={{ 'color': '#00b899' }}> Fi Money</span>
+                                    <span style={{ 'color': 'rgb(0, 184, 153)' }}> Fi Money</span>
                                 </span>
                             </Text>
                         </Tooltip>
@@ -50,7 +50,7 @@ export default function Experience() {
                                         <div className='expImgContainer'>
                                             <Image className='expImage' layout='responsive' src={polygon}/>
                                         </div>
-                                    <span style={{ 'color': '#8247e5' }}> Polygon</span>
+                                    <span style={{ 'color': 'rgb(130, 71, 229)' }}> Polygon</span>
                                 </span>
                             </Text>
                         </Tooltip>
@@ -61,7 +61,7 @@ export default function Experience() {
                                         <div className='expImgContainer'>
                                             <Image className='expImage' layout='responsive' src={mauka}/>
                                         </div>
-                                    <span style={{ 'color': '#283891' }}>Mauka</span>
+                                    <span style={{ 'color': 'rgb(40, 56, 145)' }}>Mauka</span>
                                 </span>
                             </Text>
                         </Tooltip>
@@ -72,7 +72,7 @@ export default function Experience() {
                                         <div className='expImgContainer'>
                                             <Image className='expImage' layout='responsive' src={msc}/>
                                         </div>
-                                    <span style={{ 'color': '#0176d3' }}>MSC KIIT</span>
+                                    <span style={{ 'color': 'rgb(1, 118, 211)' }}>MSC KIIT</span>
                                 </span>
                             </Text>
                         </Tooltip>
@@ -83,7 +83,7 @@ export default function Experience() {
                                         <div className='expImgContainer'>
                                             <Image className='expImage' layout='responsive' src={mozilla}/>
                                         </div>
-                                    <span style={{ 'color': '#f21900' }}>Mozilla BBSR</span>
+                                    <span style={{ 'color': 'rgb(242, 25, 0)' }}>Mozilla BBSR</span>
                                 </span>
                             </Text>
                         </Tooltip>
@@ -98,7 +98,58 @@ export default function Experience() {
                                 </span>
                             </Text>
                         </Tooltip>
-                    </p>
+                    </p> */}
+
+                    <div className='parent'>
+                        <div className='div1 grid-div'>Incoming SDE <br />                                
+                            <span style={{ 'display': 'flex', 'display': 'flex', 'alignItems': 'center' }} >
+                                    <div className='expImgContainer'>
+                                        <Image className='expImage' layout='responsive' src={amazon}/>
+                                    </div>
+                                <span style={{ 'color': 'rgb(255, 153, 0)' }}> Amazon</span>
+                            </span>
+                        </div>
+                        <div className='div2 grid-div'>SWE Intern <br />
+                            <span style={{ 'display': 'flex', 'display': 'flex', 'alignItems': 'center' }} >
+                                    <div className='expImgContainer'>
+                                        <Image className='expImage' layout='responsive' src={fi}/>
+                                    </div>
+                                <span style={{ 'color': 'rgb(0, 184, 153)' }}> Fi Money</span>
+                            </span>
+                        </div>
+                        <div className='div3 grid-div'>SWE Intern <br />
+                            <span style={{ 'display': 'flex', 'display': 'flex', 'alignItems': 'center' }} >
+                                    <div className='expImgContainer'>
+                                        <Image className='expImage' layout='responsive' src={polygon}/>
+                                    </div>
+                                <span style={{ 'color': 'rgb(130, 71, 229)' }}> Polygon</span>
+                            </span>
+                        </div>
+                        <div className='div4 grid-div'>Frontend Intern <br />
+                            <span style={{ 'display': 'flex', 'display': 'flex', 'alignItems': 'center' }} >
+                                    <div className='expImgContainer'>
+                                        <Image className='expImage' layout='responsive' src={mauka}/>
+                                    </div>
+                                <span style={{ 'color': 'rgb(40, 56, 145)' }}>Mauka</span>
+                            </span>
+                        </div>
+                        <div className='div6 grid-div'>Web Lead <br />
+                            <span style={{ 'display': 'flex', 'display': 'flex', 'alignItems': 'center' }} >
+                                    <div className='expImgContainer'>
+                                        <Image className='expImage' layout='responsive' src={msc}/>
+                                    </div>
+                                <span style={{ 'color': 'rgb(1, 118, 211)' }}>MSC KIIT</span>
+                            </span>
+                        </div>
+                        <div className='div5 grid-div'>Tech Lead <br />
+                            <span style={{ 'display': 'flex', 'display': 'flex', 'alignItems': 'center' }} >
+                                    <div className='expImgContainer'>
+                                        <Image className='expImage' layout='responsive' src={mozilla}/>
+                                    </div>
+                                <span style={{ 'color': 'rgb(242, 25, 0)' }}>Mozilla</span>
+                            </span>
+                        </div>
+                    </div>
                 </Fade>
             </Container>
         </div>
