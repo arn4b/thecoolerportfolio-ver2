@@ -20,9 +20,9 @@ export default function Experience() {
 
             <Container className="exp-cont">
                 <Fade bottom duration={2000}>
-                    {/* <p className="exp-main-text">
+                    <p className="exp-main-text">
 
-                        <Tooltip className="tooltip" content={'Jul \'23 '} placement="right" hideArrow rounded>
+                        {/* <Tooltip className="tooltip" content={'Jul \'23 '} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>Incoming SDE @
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
                                         <div className='expImgContainer'>
@@ -31,7 +31,7 @@ export default function Experience() {
                                     <span style={{ 'color': 'rgb(255, 153, 0)' }}> Amazon</span>
                                 </span>
                             </Text>
-                        </Tooltip>
+                        </Tooltip> */}
 
                         <Tooltip className="tooltip" content={'Jul \'22 - Present '} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>SWE Intern @
@@ -98,9 +98,9 @@ export default function Experience() {
                                 </span>
                             </Text>
                         </Tooltip>
-                    </p> */}
+                    </p>
 
-                    <div className='parent'>
+                    {/* <div className='parent'>
                         <div className='div1 grid-div'>Incoming SDE <br />                                
                             <span style={{ 'display': 'flex', 'display': 'flex', 'alignItems': 'center' }} >
                                     <div className='expImgContainer'>
@@ -149,7 +149,7 @@ export default function Experience() {
                                 <span style={{ 'color': 'rgb(242, 25, 0)' }}>Mozilla</span>
                             </span>
                         </div>
-                    </div>
+                    </div> */}
                 </Fade>
             </Container>
         </div>
