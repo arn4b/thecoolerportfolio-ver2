@@ -23,7 +23,7 @@ export default function Experience() {
                     <p className="exp-main-text">
 
                         {/* <Tooltip className="tooltip" content={'Jul \'23 '} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>Incoming SDE @
+                            <Text style={{ 'display': 'flex' }}>Software Engineer 
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
                                         <div className='expImgContainer'>
                                             <Image className='expImage' layout='responsive' src={amazon}/>
@@ -33,8 +33,8 @@ export default function Experience() {
                             </Text>
                         </Tooltip> */}
 
-                        <Tooltip className="tooltip" content={'Jul \'22 - Present '} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>SWE Intern @
+                        <Tooltip className="tooltip" content={'Jul \'22 - Apr \'23 '} placement="right" hideArrow rounded>
+                            <Text style={{ 'display': 'flex' }}>SWE Intern
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
                                         <div className='expImgContainer'>
                                             <Image className='expImage' layout='responsive' src={fi}/>
@@ -45,18 +45,18 @@ export default function Experience() {
                         </Tooltip>
 
                         <Tooltip className="tooltip" content={'Jan \'22 - Jul\'22 '} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>Frontend Intern @
+                            <Text style={{ 'display': 'flex' }}>SWE Intern
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
                                         <div className='expImgContainer'>
                                             <Image className='expImage' layout='responsive' src={polygon}/>
                                         </div>
-                                    <span style={{ 'color': 'rgb(130, 71, 229)' }}> Polygon</span>
+                                    <span style={{ 'color': 'rgb(130, 71, 229)' }}> Polygon Labs</span>
                                 </span>
                             </Text>
                         </Tooltip>
 
                         <Tooltip className="tooltip" content={'July \'21 - Sep \'21'} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>Frontend Intern @
+                            <Text style={{ 'display': 'flex' }}>Frontend Intern
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
                                         <div className='expImgContainer'>
                                             <Image className='expImage' layout='responsive' src={mauka}/>
@@ -67,7 +67,7 @@ export default function Experience() {
                         </Tooltip>
 
                         <Tooltip className="tooltip" content={"Jan \'21 - Present"} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>Web Dev Lead @
+                            <Text style={{ 'display': 'flex' }}>Web Engg Lead
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
                                         <div className='expImgContainer'>
                                             <Image className='expImage' layout='responsive' src={msc}/>
@@ -78,7 +78,7 @@ export default function Experience() {
                         </Tooltip>
 
                         <Tooltip className="tooltip" content={'Apr \'21 - Present'} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>Tech Lead @
+                            <Text style={{ 'display': 'flex' }}>Tech Lead
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
                                         <div className='expImgContainer'>
                                             <Image className='expImage' layout='responsive' src={mozilla}/>
