@@ -7,6 +7,7 @@ import fi from '../../public/images/filogo.svg'
 import amazon from '../../public/images/amazon.svg'
 import msc from '../../public/images/msc.svg'
 import polygon from '../../public/images/polygon.svg'
+import push from '../../public/images/push.svg'
 import mozilla from '../../public/images/mozilla.svg'
 import mauka from '../../public/images/Mauka.svg'
 import hackclub from '../../public/images/hackclub.svg'
@@ -33,8 +34,19 @@ export default function Experience() {
                             </Text>
                         </Tooltip> */}
 
-                        <Tooltip className="tooltip" content={'Jul \'22 - Apr \'23 '} placement="right" hideArrow rounded>
+                        <Tooltip className="tooltip" content={'May \'23 - Present '} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>SWE Intern
+                                <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
+                                        <div className='expImgContainer'>
+                                            <Image className='expImage' layout='responsive' src={push}/>
+                                        </div>
+                                    <span style={{"background":"-webkit-linear-gradient(0deg, rgba(224,61,193,1) 0%, rgba(130,71,229,1) 62%, rgba(255,148,166,1) 100%)","WebkitBackgroundClip":"text","WebkitTextFillColor":"transparent"}}> Push Protocol</span>
+                                </span>
+                            </Text>
+                        </Tooltip>
+
+                        <Tooltip className="tooltip" content={'Jul \'22 - Apr \'23 '} placement="right" hideArrow rounded>
+                            <Text style={{ 'display': 'flex' }}>Senior SWE Intern
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
                                         <div className='expImgContainer'>
                                             <Image className='expImage' layout='responsive' src={fi}/>
@@ -101,12 +113,20 @@ export default function Experience() {
                     </p>
 
                     {/* <div className='parent'>
-                        <div className='div1 grid-div'>Incoming SDE <br />                                
+                        <div className='div0 grid-div'>Incoming SDE <br />                                
                             <span style={{ 'display': 'flex', 'display': 'flex', 'alignItems': 'center' }} >
                                     <div className='expImgContainer'>
                                         <Image className='expImage' layout='responsive' src={amazon}/>
                                     </div>
                                 <span style={{ 'color': 'rgb(255, 153, 0)' }}> Amazon</span>
+                            </span>
+                        </div>
+                        <div className='div1 grid-div'>SWE Intern<br />                                
+                            <span style={{ 'display': 'flex', 'display': 'flex', 'alignItems': 'center' }} >
+                                    <div className='expImgContainer'>
+                                        <Image className='expImage' layout='responsive' src={push}/>
+                                    </div>
+                                <span style={{ 'color': 'rgb(224,61,193)' }}> Push Protocol</span>
                             </span>
                         </div>
                         <div className='div2 grid-div'>SWE Intern <br />
