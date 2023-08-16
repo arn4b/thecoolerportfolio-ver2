@@ -13,8 +13,8 @@ import nextlogo from '../../public/images/next-logo.png'
 
 export default function About() {
 
-    const getResume = () =>{ 
-        window.open("https://drive.google.com/file/d/1_f2ultkr5CTfWlXoJh3gTl6R1qdYoEgD/view?usp=sharing")
+    const getResume = () => {
+        window.open("https://docs.google.com/document/d/1ASQ_az6853Jgx_hjQJW72o7Xh8m0GUk1gH1uVEEHSY0/edit?usp=sharing")
     }
 
     return (
@@ -25,9 +25,9 @@ export default function About() {
                     <Grid xs={12} md={6} className="flex flex-col abt-text-section">
                         <Fade bottom duration={2000}>
                             <p className="about-main-text">All Work, All Play</p>
-                            <p className="about-subtext">I&apos;m a Software Engineer from India 🇮🇳 <br/> You will find me playing around with TypeScript, Golang and sometimes an AWP in Mirage.</p>
+                            <p className="about-subtext">I&apos;m a Software Engineer from India 🇮🇳 <br /> You will find me playing around with TypeScript, Golang and sometimes an AWP in Mirage.</p>
                             <Spacer y={1} />
-                            <Button onClick = {getResume} className="about-btn" size="xlarge" shadow color="gradient" auto>Get My Resume</Button>
+                            <Button onClick={getResume} className="about-btn" size="xlarge" shadow color="gradient" auto>Get My Resume</Button>
                         </Fade>
 
                     </Grid>

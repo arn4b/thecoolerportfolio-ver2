@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="navbar-items">
           <h3 className="navbar-items-text">
             <Link href="/uses">
-              Tech I Use
+              Uses
             </Link>
           </h3>
         </div>

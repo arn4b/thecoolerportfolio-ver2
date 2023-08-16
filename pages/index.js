@@ -44,8 +44,8 @@ export default function Home() {
         <Landing />
         <About />
         <Experience />
-        <Tech />
-        <Projects />
+        {/* <Tech />
+        <Projects /> */}
         <Contact />
         <Footer />
         {/* <InlineWidget  url="https://calendly.com/arn4b/30min"/> */}

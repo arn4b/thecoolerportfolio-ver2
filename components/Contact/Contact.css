@@ -13,7 +13,7 @@
     color: rgba(123, 0, 150, 0.5);
     position: absolute;
     top: 0px;
-    right: 0;
+    left: 0;
     z-index: -1;
 
     -webkit-touch-callout: none;
@@ -57,8 +57,7 @@ textarea {
     width: 1800px !important;
 }
 
-@media only screen and (max-width: 786px)
-{
+@media only screen and (max-width: 786px) {
     .contact {
         height: 150vh;
     }

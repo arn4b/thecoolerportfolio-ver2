@@ -11,25 +11,28 @@ import { Table } from "@nextui-org/react";
 
 const equipment = [
     {
-        name: "Apple MacBook Pro 16inch 🛐",
+        name: "Apple MacBook Pro 16inch",
     },
     {
-        name: "Samsung 32-Inch UHD 4K LS32A800NWXXL - for the extra screen real estate 🏠",
+        name: "Apple iPhone 15 Pro",
     },
     {
-        name: "CB GK16 Mechanical keeb w/ Outemu Blue Swithces - for the clickty clack typing experience 👀",
+        name: "Apple AirPods Pro Gen 2",
     },
     {
-        name: "Logitech G102 LightSync - for the wuntapz 🎮",
+        name: "Samsung 32-Inch UHD 4K LS32A800NWXXL",
     },
     {
-        name: "Logitech MX720 Performance - this thing has a hidden button 💨",
+        name: "CB GK16 Mechanical keeb w/ Outemu Blue Swithces",
     },
     {
-        name: "Amazon Echo Dot v3 - frankly, just for the clock (and sometimes Spotify)",
+        name: "Logitech G102 LightSync",
     },
     {
-        name: "Oppo Enco M31 - audio quality is a plus 🎧",
+        name: "Logitech MX720 Performance",
+    },
+    {
+        name: "Amazon Echo Dot v3",
     },
 ]
 
@@ -38,10 +41,7 @@ const tools = [
         name: "VS Code",
     },
     {
-        name: "Firefox Developer edition",
-    },
-    {
-        name: "Linear & Monorail - for issue tracking",
+        name: "Firefox Developer Edition / Arc",
     },
     {
         name: "Figma",
@@ -55,26 +55,23 @@ const tools = [
     {
         name: "Notion - gorgeous notetaking",
     },
+    {
+        name: "Obsidian - second brain",
+    },
 ]
 
 const vscexts = [
     {
-        name: "Ayu Mirage Dark Theme",
+        name: "Themes: Ayu Mirage / Noctis Obscuro",
     },
     {
         name: "Prettier",
-    },
-    {
-        name: "ESLint",
     },
     {
         name: "GitLens",
     },
     {
         name: "Fluent Icons",
-    },
-    {
-        name: "Live Server",
     },
     {
         name: "Vetur",

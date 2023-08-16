@@ -23,24 +23,24 @@ export default function Experience() {
                 <Fade bottom duration={2000}>
                     <p className="exp-main-text">
 
-                        {/* <Tooltip className="tooltip" content={'Jul \'23 '} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>Software Engineer 
+                        {/* <Tooltip className="tooltip" content={'Jan \'24 '} placement="right" hideArrow rounded>
+                            <Text style={{ 'display': 'flex' }}>Software Engineer
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
-                                        <div className='expImgContainer'>
-                                            <Image className='expImage' layout='responsive' src={amazon}/>
-                                        </div>
+                                    <div className='expImgContainer'>
+                                        <Image className='expImage' layout='responsive' src={amazon} />
+                                    </div>
                                     <span style={{ 'color': 'rgb(255, 153, 0)' }}> Amazon</span>
                                 </span>
                             </Text>
                         </Tooltip> */}
 
-                        <Tooltip className="tooltip" content={'May \'23 - Present '} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>SWE Intern
+                        <Tooltip className="tooltip" content={<div> Aug&apos;23 - Present <br /> SWE Intern : May&apos;23 - Aug&apos;23</div>} placement="right" hideArrow rounded>
+                            <Text style={{ 'display': 'flex' }}>SWE
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
-                                        <div className='expImgContainer'>
-                                            <Image className='expImage' layout='responsive' src={push}/>
-                                        </div>
-                                    <span style={{"background":"-webkit-linear-gradient(0deg, rgba(224,61,193,1) 0%, rgba(130,71,229,1) 62%, rgba(255,148,166,1) 100%)","WebkitBackgroundClip":"text","WebkitTextFillColor":"transparent"}}> Push Protocol</span>
+                                    <div className='expImgContainer'>
+                                        <Image className='expImage' layout='responsive' src={push} />
+                                    </div>
+                                    <span style={{ "background": "-webkit-linear-gradient(0deg, rgba(224,61,193,1) 0%, rgba(130,71,229,1) 62%, rgba(255,148,166,1) 100%)", "WebkitBackgroundClip": "text", "WebkitTextFillColor": "transparent" }}> Push Protocol</span>
                                 </span>
                             </Text>
                         </Tooltip>
@@ -48,9 +48,9 @@ export default function Experience() {
                         <Tooltip className="tooltip" content={'Jul \'22 - Apr \'23 '} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>Senior SWE Intern
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
-                                        <div className='expImgContainer'>
-                                            <Image className='expImage' layout='responsive' src={fi}/>
-                                        </div>
+                                    <div className='expImgContainer'>
+                                        <Image className='expImage' layout='responsive' src={fi} />
+                                    </div>
                                     <span style={{ 'color': 'rgb(0, 184, 153)' }}> Fi Money</span>
                                 </span>
                             </Text>
@@ -59,9 +59,9 @@ export default function Experience() {
                         <Tooltip className="tooltip" content={'Jan \'22 - Jul\'22 '} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>SWE Intern
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
-                                        <div className='expImgContainer'>
-                                            <Image className='expImage' layout='responsive' src={polygon}/>
-                                        </div>
+                                    <div className='expImgContainer'>
+                                        <Image className='expImage' layout='responsive' src={polygon} />
+                                    </div>
                                     <span style={{ 'color': 'rgb(130, 71, 229)' }}> Polygon Labs</span>
                                 </span>
                             </Text>
@@ -70,9 +70,9 @@ export default function Experience() {
                         <Tooltip className="tooltip" content={'July \'21 - Sep \'21'} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>Frontend Intern
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
-                                        <div className='expImgContainer'>
-                                            <Image className='expImage' layout='responsive' src={mauka}/>
-                                        </div>
+                                    <div className='expImgContainer'>
+                                        <Image className='expImage' layout='responsive' src={mauka} />
+                                    </div>
                                     <span style={{ 'color': 'rgb(40, 56, 145)' }}>Mauka</span>
                                 </span>
                             </Text>
@@ -81,9 +81,9 @@ export default function Experience() {
                         <Tooltip className="tooltip" content={"Jan \'21 - Present"} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>Web Engg Lead
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
-                                        <div className='expImgContainer'>
-                                            <Image className='expImage' layout='responsive' src={msc}/>
-                                        </div>
+                                    <div className='expImgContainer'>
+                                        <Image className='expImage' layout='responsive' src={msc} />
+                                    </div>
                                     <span style={{ 'color': 'rgb(1, 118, 211)' }}>MSC KIIT</span>
                                 </span>
                             </Text>
@@ -92,20 +92,20 @@ export default function Experience() {
                         <Tooltip className="tooltip" content={'Apr \'21 - Present'} placement="right" hideArrow rounded>
                             <Text style={{ 'display': 'flex' }}>Tech Lead
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
-                                        <div className='expImgContainer'>
-                                            <Image className='expImage' layout='responsive' src={mozilla}/>
-                                        </div>
+                                    <div className='expImgContainer'>
+                                        <Image className='expImage' layout='responsive' src={mozilla} />
+                                    </div>
                                     <span style={{ 'color': 'rgb(242, 25, 0)' }}>Mozilla BBSR</span>
                                 </span>
                             </Text>
                         </Tooltip>
 
                         <Tooltip className="tooltip" content={'Apr \'21 - Present'} placement="right" hideArrow rounded>
-                            <Text style={{ 'display': 'flex' }}>Web Core @
+                            <Text style={{ 'display': 'flex' }}>Web Core
                                 <span style={{ 'display': 'flex', 'marginLeft': '10px', 'display': 'flex', 'alignItems': 'center' }} >
-                                        <div className='expImgContainer'>
-                                            <Image className='expImage' layout='responsive' src={hackclub}/>
-                                        </div>
+                                    <div className='expImgContainer'>
+                                        <Image className='expImage' layout='responsive' src={hackclub} />
+                                    </div>
                                     <span style={{ 'color': '#ec3750' }}>HackClub</span>
                                 </span>
                             </Text>
